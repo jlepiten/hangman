@@ -7,7 +7,7 @@ session_start();
 <html>
 
 <head>
-  <title>Hangman</title>
+  <title>hangman.</title>
   <link type="text/css" rel="stylesheet" href="./style.css" />
 </head>
 
@@ -24,7 +24,6 @@ session_start();
     </br>
 
     <?php
-
     // Starts the game when user clicks the play button.
     // Also checks if the password is correct - right now it's just a static password (iluvphp).
     if (isset($_POST['play']) && !empty($_POST['username']) && !empty($_POST['gamekey'])) {
